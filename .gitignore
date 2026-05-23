@@ -9,10 +9,8 @@ ENV/
 .env.*
 
 # Data files 
-data/
-*.csv
-*.xlsx
-*.xls
+data/*
+!data/*.dvc
 
 #dataases
 *.db
